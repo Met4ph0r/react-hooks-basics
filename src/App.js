@@ -46,7 +46,8 @@ function App() {
   const ThemeContext = React.createContext('dark')
   
   let display = () => {
-    const theme = useContext(ThemeContext)
+    const theme = 'dark';
+//     const theme = useContext(ThemeContext)
     return <div style ={{
             background: theme === 'dark' ? 'black' : 'white',
             color: theme === 'dark' ? 'white' : 'dark',
