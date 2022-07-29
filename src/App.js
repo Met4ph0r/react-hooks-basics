@@ -49,7 +49,7 @@ function App() {
     const theme = useContext(ThemeContext)
     return <div style ={{
             background: theme === 'dark' ? 'black' : 'white',
-            color: theme === 'dark' ? 'white' : 'white',
+            color: theme === 'dark' ? 'white' : 'dark',
             width: '100%',
             minHeight: '200px'
     }}>
